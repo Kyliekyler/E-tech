@@ -6,11 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="assets/css/main.css" />
     <link rel="icon" type="image/gif/png/jpg" href="images/Image.png">
-    <script type = "text/javascript" >
-   function preventBack(){window.history.forward();}
-    setTimeout("preventBack()", 0);
-    window.onunload=function(){null};
-</script>
 </head>
 	
 <body class="landing">
@@ -31,17 +26,17 @@
 <section class="wrapper style5">
 <div class="inner">
 <form method="login" action="index.html">
-<label><h5>Email or Phone</h5></label>
+<label><h5>Email</h5></label>
     <div class="row uniform">
         <div class="12u$">
-            <input type="email" name="email" id="Email-or-Phone" value="" placeholder="Email or Phone" required>
+            <input type="email" name="email" id="email" placeholder="Email" required>
         </div>
     </div>
 <br>
 <label><h5>Password</h5></label>
     <div class="row uniform">
         <div class="12u$">
-            <input type="password" name="psw" id="Password" value="" placeholder="Password" required>
+            <input type="password" name="password" id="password" placeholder="Password" required>
         </div>
     </div><br>
         <div class="6u 12u$(small)">
@@ -53,7 +48,7 @@
             <ul class="actions">
                 <center>
 					<li>
-						<input type="submit" onclick="check(this.form)" value="Log In" class="special">
+						<input type="button" value="Log In" id="submit" onclick="validate()" class="special" />
 					</li>
 				</center>
 <br>
@@ -90,19 +85,8 @@
 <script src="assets/js/skel.min.js"></script>
 <script src="assets/js/util.js"></script>
 <script src="assets/js/main.js"></script>
-<script language="javascript">
-function check(form)
-{
-	if(form.email.value == "admin@stem2.com" && form.psw.value == "admin")
-	{
-	window.open('index.html')
-	}
-	else
-	{
-		alert("The email and password you entered don't match")
-	}
-}
-</script>
+<script src="assets/js/login.js"></script>
+<script src="assets/js/prevent_bckbtn.js"></script>
 
 </body>
 </html>
