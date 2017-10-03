@@ -2,11 +2,11 @@ var attempt = 3; //Variable to count number of attempts
 
 //Below function Executes on click of login button
 function validate(){
-	var username = document.getElementById("email").value;
+	var email = document.getElementById("email").value;
 	var password = document.getElementById("password").value;
 
-	if ( username == "admin@stem2.com" && password == "admin123"){
-		alert ("Login successfully");
+	if ( email == "admin@stem2.com" && password == "admin123"){
+		alert ("Login successful");
 		window.location = "home.html"; //redirecting to other page
 		return false;
 	}
