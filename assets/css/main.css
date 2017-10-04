@@ -3812,3 +3812,21 @@
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+	
+/* show hide text */
+
+.body{padding:0; margin:0;}
+.main_ctnt {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.show {
+	padding: 0;
+}
+.morectnt span {
+display: none;
+}
+.showmoretxt {
+    text-decoration: none;
+}
