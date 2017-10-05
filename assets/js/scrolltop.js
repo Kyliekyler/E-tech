@@ -1,5 +1,3 @@
-<script type='text/javascript'>
 $('#goTop').on('click', function(e){
-    $("html, body").animate({scrollTop: $("#top").offset().top}, 500);
+    $("html, body").animate({scrollTop: $("#top").offset().top}, 1500);
 });
-</script>
