@@ -1,6 +1,6 @@
-    function showOrHide() 
+    function showhidediv(showhidediv) 
     {
-        var div = document.getElementById("showhidediv");
+        var div = document.getElementById(showhidediv);
         if (div.style.display == "block") 
         {
             div.style.display = "none";
