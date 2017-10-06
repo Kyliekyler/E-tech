@@ -6,7 +6,6 @@ function validate(){
 	var password = document.getElementById("password").value;
 
 	if ( email == "admin@stem2.com" && password == "admin123"){
-		alert ("Login successful");
 		window.location = "home.html"; //redirecting to other page
 		return false;
 	}
