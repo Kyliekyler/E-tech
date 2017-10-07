@@ -3949,3 +3949,17 @@ display: none;
   from {opacity: .4} 
   to {opacity: 1}
 }
+
+/* chevron */
+
+.rotate{
+    -moz-transition: all 0.1s linear;
+    -webkit-transition: all 0.1s linear;
+    transition: all 0.1s linear;
+}
+
+.rotate.down{
+    -moz-transform:rotate(90deg);
+    -webkit-transform:rotate(90deg);
+    transform:rotate(90deg);
+}
