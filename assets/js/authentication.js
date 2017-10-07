@@ -13,7 +13,7 @@
 
   //Get elements
   const txtEmail = document.getElementById('txtEmail');
-  const txtPassword = document.getElementById('txtPassword);
+  const txtPassword = document.getElementById('txtPassword');
   const btnLogin = document.getElementById('btnLogin');
   const btnSignup = document.getElementById('btnSignup');
   const btnLogout = document.getElementById('btnLogout');
