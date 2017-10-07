@@ -29,14 +29,14 @@
 <label><h5>Email</h5></label>
     <div class="row uniform">
         <div class="12u$">
-            <input type="email" name="email" id="email" placeholder="Email" required>
+            <input type="email" id="txtEmail" placeholder="Email" required>
         </div>
     </div>
 <br>
 <label><h5>Password</h5></label>
     <div class="row uniform">
         <div class="12u$">
-            <input type="password" name="password" id="password" placeholder="Password" required>
+            <input type="password" id="txtPassword" placeholder="Password" required>
         </div>
     </div><br>
         <div class="6u 12u$(small)">
@@ -48,7 +48,7 @@
             <ul class="actions">
                 <center>
 					<li>
-						<input type="button" value="Login" id="submit" onclick="validate()" class="special" />
+						<button id="btnLogin" class="btn btn-action special">Login</button>
 						<input type="hidden" onclick="preventBack()" />
 					</li>
 				</center>
@@ -79,14 +79,15 @@
 </ul>
 </footer>
 </div>
-
+	
+<script src="https://www.gstatic.com/firebasejs/4.5.0/firebase.js"></script>
+<script src="assets/js/authentication.js"></script>
 <script src="assets/js/jquery.min.js"></script>
 <script src="assets/js/jquery.scrollex.min.js"></script>
 <script src="assets/js/jquery.scrolly.min.js"></script>
 <script src="assets/js/skel.min.js"></script>
 <script src="assets/js/util.js"></script>
 <script src="assets/js/main.js"></script>
-<script src="assets/js/login.validation.js"></script>
 <script src="assets/js/prevent_bckbtn.js"></script>
 
 </body>
