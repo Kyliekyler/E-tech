@@ -4,6 +4,7 @@
     <title>PNHS - Main | Signup</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://www.gstatic.com/firebasejs/4.5.0/firebase.js"></script>
     <link rel="stylesheet" href="assets/css/main.css" />
     <link rel="icon" type="image/gif/png/jpg" href="images/LOGO.PNG">
 </head>
@@ -37,7 +38,7 @@
     <div class="row uniform">
         <div class="12u$">
 <div><h5>Email</h5></div>
-            <input type="email" id="email" placeholder="Email" required>
+            <input type="email" id="txtEmail" placeholder="Email" required>
         </div>
 <div><h5>Birthday</h5></div>
     <div class="row uniform">
@@ -147,14 +148,15 @@
 <div><h5>Password</h5></div>
     <div class="row uniform">
         <div class="6u 12u$(xsmall)">
-            <input type="password" id="password1" placeholder="New Password">
+            <input type="password" id="txtPassword1" placeholder="New Password">
         </div>
         <div class="6u 12u$(xsmall)">
-           <input type="password" placeholder="Confirm Password" id="password2" required>
+           <input type="password" placeholder="Confirm Password" id="txtPassword2" required>
         </div><font color= gray>By clicking Sign Up, you agree to our <a href="terms&conditions.html" target="_blank">Terms & Conditions</a>.</font>
         <div class="12u$">
             <ul class="actions">
-                <center><li><input type="submit" id="submit" value="Signup" onclick="validate()" class="special" />
+                <center><li>
+                <button id"=btnSignup" class="btn btn-secondary special">Signup</button>
                 <input type="hidden" onclick="preventBack()" />
                 </li></center><br>
                 <center><li><a href=login.html>Already have an account?</a></li></center>
@@ -180,6 +182,7 @@
 </footer>
 </div>
 
+<script src="assets/js/authentication.js"></script>
 <script src="assets/js/jquery.min.js"></script>
 <script src="assets/js/jquery.scrollex.min.js"></script>
 <script src="assets/js/jquery.scrolly.min.js"></script>
