@@ -2821,11 +2821,11 @@
 			}
 
 		.wrapper.style2 {
-			background-color: rgba(46, 56, 66, 0.50)
+			background-color: rgba(46, 56, 66, 0.25)
 		}
 
 		.wrapper.style3 {
-			background-color: #505393;
+			background-color: rgba(80, 83, 147, 0.25);
 			color: #d3d4e4;
 		}
 
@@ -2983,7 +2983,7 @@
 		}
 
 		.wrapper.style5 {
-			background-color:rgba(255, 255, 255, 0.50);
+			background-color:rgba(255, 255, 255, 0.25);
 			color: #4E4852;
 		}
 
