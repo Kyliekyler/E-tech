@@ -2667,7 +2667,7 @@
 		}
 
 		.wrapper.style1 {
-			background-color: rgba(109, 198, 191, 0.50);
+			background-color: rgba(109, 198, 191, 0.050);
 			color: #c7ebe8;
 		}
 
@@ -2821,11 +2821,11 @@
 			}
 
 		.wrapper.style2 {
-			background-color: rgba(46, 56, 66, 0.25)
+			background-color: rgba(46, 56, 66, 0.050)
 		}
 
 		.wrapper.style3 {
-			background-color: rgba(80, 83, 147, 0.25);
+			background-color: rgba(80, 83, 147, 0.050);
 			color: #d3d4e4;
 		}
 
@@ -2983,7 +2983,7 @@
 		}
 
 		.wrapper.style5 {
-			background-color:rgba(255, 255, 255, 0.25);
+			background-color:rgba(255, 255, 255, 0.050);
 			color: #4E4852;
 		}
 
