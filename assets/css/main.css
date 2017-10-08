@@ -2667,7 +2667,7 @@
 		}
 
 		.wrapper.style1 {
-			background-color: rgba(109, 198, 191, 0.050);
+			background-color: rgba(109, 198, 191, 1.5);
 			color: #c7ebe8;
 		}
 
@@ -2821,11 +2821,11 @@
 			}
 
 		.wrapper.style2 {
-			background-color: rgba(46, 56, 66, 0.050)
+			background-color: rgba(46, 56, 66, 1.5)
 		}
 
 		.wrapper.style3 {
-			background-color: rgba(80, 83, 147, 0.050);
+			background-color: rgba(80, 83, 147, 1.5);
 			color: #d3d4e4;
 		}
 
@@ -3950,7 +3950,7 @@ display: none;
   to {opacity: 1}
 }
 
-/* chevron */
+/* Icon rotate*/
 
 .rotate{
     -moz-transition: all 0.1s linear;
