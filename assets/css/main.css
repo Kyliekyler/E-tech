@@ -2344,7 +2344,7 @@
 			input[type="button"].special:hover,
 			button.special:hover,
 			.button.special:hover {
-				background-color: rgba(26, 84, 59, 0.9) !important;
+				background-color: rgba(26, 84, 59, 0.50) !important;
 			}
 
 			input[type="submit"].special:active,
@@ -2352,7 +2352,7 @@
 			input[type="button"].special:active,
 			button.special:active,
 			.button.special:active {
-				background-color: rgba(26, 84, 59, 0.9) !important;
+				background-color: rgba(26, 84, 59, 0.75) !important;
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -3953,9 +3953,9 @@ display: none;
 /* Icon rotate*/
 
 .rotate{
-    -moz-transition: all 0.1s linear;
-    -webkit-transition: all 0.1s linear;
-    transition: all 0.1s linear;
+    -moz-transition: 0.1s linear;
+    -webkit-transition: 0.1s linear;
+    transition: 0.1s linear;
 }
 
 .rotate.down{
@@ -3966,9 +3966,9 @@ display: none;
 
 /* frosted glass */
 
-.frosted-glass {
-  width: 400px;
-  height: 200px;
+#kyle {
+  width: 100%;
+  height: auto;
   background: inherit;
   position: relative;
   z-index: 1;
@@ -3977,16 +3977,17 @@ display: none;
   padding: 2rem;
   box-sizing: border-box;
   box-shadow: 0 .5em 1em rgba(0,0,0,.3);
+  border-radius: 50px;
 }
 
-.frosted-glass::before {
+#kyle::before {
   content: "";
   position: absolute;
   z-index: -1;
   top: 0; right: 0; bottom: 0; left: 0;
   background: inherit;
   box-shadow: inset 0 0 3000px rgba(255,255,255,.5);
-  filter: blur(10px);
+  filter: blur(50px);
   margin: -20px;
 }
 
