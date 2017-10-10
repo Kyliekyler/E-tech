@@ -3727,7 +3727,7 @@
 
 	#footer {
 		padding: 6em 0 4em 0 ;
-		background-color: rgb(26, 84, 59);
+		background-color: rgba(26, 84, 59, 0.9);
 		text-align: center;
 	}
 
