@@ -3736,15 +3736,15 @@
 		}
 
 			#footer .icons a {
-				color: rgba(255, 255, 255, 0.5);
+				color: rgba(0, 0, 0, 0.5);
 			}
 
 				#footer .icons a:hover {
-					color: #fff;
+					color: #000000;
 				}
 
 		#footer .copyright {
-			color: rgba(255, 255, 255, 0.5);
+			color: rgba(0, 0, 0, 0.5);
 			font-size: 0.8em;
 			letter-spacing: 0.225em;
 			list-style: none;
@@ -3753,7 +3753,7 @@
 		}
 
 			#footer .copyright li {
-				border-left: solid 1px rgba(255, 255, 255, 0.5);
+				border-left: solid 1px rgba(0, 0, 0, 0.5);
 				display: inline-block;
 				line-height: 1em;
 				margin-left: 1em;
@@ -3836,7 +3836,7 @@
 	}
 
 	body.is-mobile.landing #footer {
-		background-color: #1d242a;
+		background-color: #ffffff;
 	}
 	
 /* show hide text */
