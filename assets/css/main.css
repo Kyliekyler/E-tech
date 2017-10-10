@@ -2344,7 +2344,7 @@
 			input[type="button"].special:hover,
 			button.special:hover,
 			.button.special:hover {
-				background-color: rgba(26, 84, 59, 0.5) !important;
+				background-color: rgba(26, 84, 59, 0.9) !important;
 			}
 
 			input[type="submit"].special:active,
@@ -2352,7 +2352,7 @@
 			input[type="button"].special:active,
 			button.special:active,
 			.button.special:active {
-				background-color: rgb(26, 84, 59) !important;
+				background-color: rgba(26, 84, 59, 0.9) !important;
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
