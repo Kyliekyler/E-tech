@@ -3966,7 +3966,7 @@ display: none;
 
 /* frosted glass */
 
-#kyle {
+#frostedglass {
   width: 100%;
   height: auto;
   background: inherit;
@@ -3980,7 +3980,7 @@ display: none;
   border-radius: 8px;
 }
 
-#kyle::before {
+#frostedglass::before {
   content: "";
   position: absolute;
   z-index: -1;
